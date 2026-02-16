@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RBS040200'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Assemtech", "RBS040200" (!) = "", "RBS040200", "Other", "", "", "", "", "15 , 25 mA, 24V, Non-Mercury Tilt Switch", "http://uk.rs-online.com/web/p/products/3615093", "6 mm"
+END_PART
+
+END.

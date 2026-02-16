@@ -1,0 +1,1 @@
+./JLC2KiCadLib C1337258 C24112 -dir My_lib -model_dir My_model_dir -footprint_lib My_footprint_lib -symbol_lib_dir My_symbol_lib_dir -symbol_lib My_symbol_lib

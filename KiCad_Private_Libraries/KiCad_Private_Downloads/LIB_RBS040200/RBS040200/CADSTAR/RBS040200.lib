@@ -1,0 +1,18 @@
+.RBS040200 :1 ;15 , 25 mA, 24V, Non-Mercury Tilt Switch
+RBS040200
+*STM S
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN RBS040200
+~!Manufacturer_Name (Assemtech)
+~!Manufacturer_Part_Number (RBS040200)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/3615093)
+~!Height (6mm)
+~!3D_Model (RBS040200)
+RBS040200
+1.1!U 2.1!U 3.1!U 4.1!U 

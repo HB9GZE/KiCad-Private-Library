@@ -1,0 +1,111 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RBS040200"
+   (description "15 , 25 mA, 24V, Non-Mercury Tilt Switch")
+   (family "SWI")
+   (package "RBS040200")
+   (attribute "Datasheet Link" "http://uk.rs-online.com/web/p/products/3615093")
+   (attribute "Geometry.Height" "6mm")
+   (attribute "Manufacturer_Name" "Assemtech")
+   (attribute "Manufacturer_Part_Number" "RBS040200")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "RBS040200")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "RBS040200"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RBS040200"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 1.5 3.77)
+      (pt 12.5 3.77)
+      (pt 12.5 -1.23)
+      (pt 1.5 -1.23)
+      (pt 1.5 3.77))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.5 3.77)
+      (pt 12.5 3.77)
+      (pt 12.5 -1.23)
+      (pt 1.5 -1.23)
+      (pt 1.5 3.77))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.223 4.77)
+      (pt 13.5 4.77)
+      (pt 13.5 -2.23)
+      (pt -4.223 -2.23)
+      (pt -4.223 4.77))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -2.540 0.000) (padstack 0))
+   (leg 3 (pt 0.000 2.540) (padstack 0))
+   (leg 4 (pt -2.540 2.540) (padstack 0))
+   (padstack 0
+    (hole 0.84)
+    (plated true)
+    (pad (layer TCOP) (round 1.365))
+    (pad (layer INNER) (round 1.365))
+    (pad (layer BCOP) (round 1.365))
+   )
+   (model "RBS040200.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

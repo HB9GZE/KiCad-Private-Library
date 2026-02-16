@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RBS040200
+D 15 , 25 mA, 24V, Non-Mercury Tilt Switch
+K
+F http://uk.rs-online.com/web/p/products/3615093
+$ENDCMP
+#
+#End Doc Library

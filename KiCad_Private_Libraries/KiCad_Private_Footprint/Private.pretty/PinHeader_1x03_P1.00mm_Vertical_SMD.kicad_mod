@@ -1,0 +1,118 @@
+(footprint "PinHeader_1x03_P1.00mm_Vertical_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "surface-mounted straight pin header, 1x02, 1.00mm pitch, single row, SMD custom made SNM")
+	(tags "Surface mounted pin header SMD 1x02 1.00mm single row SMD custom made SNM")
+	(property "Reference" "REF**"
+		(at 0.270099 -3.147105 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d3425e3b-481f-4d25-8947-6a4873e8cbe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PinHeader_1x03_P1.00mm_Vertical_SMD"
+		(at 0 2.06 0)
+		(layer "F.Fab")
+		(uuid "be69f413-229e-4b9b-82ba-0c185359415f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Private:PinHeader_1x03_P1.00mm_Vertical_SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2ea9087-ed1f-4ea1-a94a-dbe49242e478")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0e152d2-19ae-4b40-b864-aee33fc9d94d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aca47185-62b9-45f5-b939-22502a7b201a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.11971 -2.611314)
+		(end 2.149084 5.597906)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6cdaf449-0bc7-4d0f-8e9d-3f6e695b351c")
+	)
+	(fp_line
+		(start -0.285 -1)
+		(end 0.635 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a51f555-2111-44cc-bf84-43a08310edf0")
+	)
+	(pad "1" smd rect
+		(at 0 -1.5)
+		(size 4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8342b24f-d2ee-494a-8dc3-10630e181919")
+	)
+	(pad "2" smd rect
+		(at 0 1.5)
+		(size 4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3500f170-43f1-4e72-ae55-864ad2d1a37c")
+	)
+	(pad "3" smd rect
+		(at 0 4.5)
+		(size 4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "15478260-b033-4e77-bcb4-e5a3e2a59ea4")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.00mm.3dshapes/PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Left.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

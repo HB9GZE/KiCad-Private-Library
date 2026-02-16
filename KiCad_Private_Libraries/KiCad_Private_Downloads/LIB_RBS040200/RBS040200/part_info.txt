@@ -1,0 +1,9 @@
+Manufacturer=Assemtech
+PartNumber=RBS040200
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.4
+Released=2021-02-01 18:04:15
+Downloaded=2024-02-12 16:27:13
+3D=Y

@@ -1,7 +1,7 @@
 (footprint "ADT151"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "ADT1.5-1+-1")
 	(tags "Transformer")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1b9004e8-01e9-4245-8b3d-9791f97b73ae")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -261,39 +251,40 @@
 	(pad "1" smd rect
 		(at -2.54 2.54)
 		(size 1.65 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f77f6549-48d0-4856-a5c8-99920e13838c")
 	)
 	(pad "2" smd rect
 		(at 0 2.54)
 		(size 1.65 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d82d99a1-066e-4b49-9894-3502cad2f340")
 	)
 	(pad "3" smd rect
 		(at 2.54 2.54)
 		(size 1.65 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1a085eb1-3771-467c-8a9f-9debe182cc4b")
 	)
 	(pad "4" smd rect
 		(at 2.54 -2.54)
 		(size 1.65 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2ce4ee03-4577-43e3-a0dc-5a6456e9f68f")
 	)
 	(pad "5" smd rect
 		(at 0 -2.54)
 		(size 1.65 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "59717558-94d1-401f-8d89-bff9aa409a88")
 	)
 	(pad "6" smd rect
 		(at -2.54 -2.54)
 		(size 1.65 2.54)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d01cfb21-734d-4fec-bc7c-43d1bdd1187f")
 	)
+	(embedded_fonts no)
 	(model "ADT1.5-1+.stp"
 		(offset
 			(xyz 0 0 0)
@@ -303,6 +294,17 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD_PRIVATE_DIR}/ADTT1-1_.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
 		)
 	)
 )

@@ -317,4 +317,9 @@
   (fp_line (start -13.85 14.5) (end -13.85 8.32) (layer F.SilkS) (width 0.127))
   (fp_line (start 14.65 14.5) (end -13.85 14.5) (layer F.SilkS) (width 0.127))
   (fp_circle (center 6.8 -16.75) (end 6.9 -16.75) (layer F.SilkS) (width 0.2))
+  (model "E:/OneDrive/Dokumente/KiCad-Private-Library/KiCad_Private_Libraries/KiCad_Private_Step/10067847-011RLF.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

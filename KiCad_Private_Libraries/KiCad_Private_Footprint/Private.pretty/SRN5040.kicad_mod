@@ -1,23 +1,179 @@
-
-(footprint IND_LQH5BPN1R5N38L (layer F.Cu) (tedit 69982802)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.175 -4.135 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value IND_LQH5BPN1R5N38L (at 8.43 4.135 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -1.825 0.0) (size 1.85 4.1) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 1.825 0.0) (size 1.85 4.1) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -2.45 -2.45) (end 2.45 -2.45) (layer F.Fab) (width 0.127))
-  (fp_line (start 2.45 -2.45) (end 2.45 2.45) (layer F.Fab) (width 0.127))
-  (fp_line (start 2.45 2.45) (end -2.45 2.45) (layer F.Fab) (width 0.127))
-  (fp_line (start -2.45 2.45) (end -2.45 -2.45) (layer F.Fab) (width 0.127))
-  (fp_line (start -3.0 -2.7) (end 3.0 -2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.0 -2.7) (end 3.0 2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.0 2.7) (end -3.0 2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.0 2.7) (end -3.0 -2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.45 -2.45) (end 2.45 -2.45) (layer F.SilkS) (width 0.127))
-  (fp_line (start 2.45 2.45) (end -2.45 2.45) (layer F.SilkS) (width 0.127))
+(footprint "SRN5040"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.175 -4.135 0)
+		(layer "F.SilkS")
+		(uuid "35985a12-874f-4710-ad04-bd930f1ea355")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_LQH5BPN1R5N38L"
+		(at 8.43 4.135 0)
+		(layer "F.Fab")
+		(uuid "a63408e0-b52f-4e81-bbc3-13665acad89e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c00fcb77-5f3b-4f06-9031-794af9574d0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "938a6150-66fd-4c3c-a24b-e61c4eb7c879")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.45 -2.45)
+		(end 2.45 -2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b0d86b0-7845-422e-a0a5-3c2bc32f2785")
+	)
+	(fp_line
+		(start 2.45 2.45)
+		(end -2.45 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e4190d1-4cc8-4ae7-ba6b-5ec9e526667b")
+	)
+	(fp_line
+		(start -3 -2.7)
+		(end 3 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8da72300-9fcb-46d7-9e9c-4aeb85cba4ca")
+	)
+	(fp_line
+		(start -3 2.7)
+		(end -3 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b8955fd-aa9a-4b41-ac9b-f49cb803c785")
+	)
+	(fp_line
+		(start 3 -2.7)
+		(end 3 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "660b8681-a93b-4ad2-8ab7-e1e0ea1bc0be")
+	)
+	(fp_line
+		(start 3 2.7)
+		(end -3 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30b75873-4187-4180-883d-1c5a0f50148c")
+	)
+	(fp_line
+		(start -2.45 -2.45)
+		(end 2.45 -2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fe569b6-0a93-4b6d-961d-102e46b5c886")
+	)
+	(fp_line
+		(start -2.45 2.45)
+		(end -2.45 -2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a6de1cd-03f2-4a6b-b04a-e5d55ce81b18")
+	)
+	(fp_line
+		(start 2.45 -2.45)
+		(end 2.45 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3fa3b029-5bea-434e-8678-62a2f635d540")
+	)
+	(fp_line
+		(start 2.45 2.45)
+		(end -2.45 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26917b0b-b0aa-4fbc-b4d1-fcd891db5b4d")
+	)
+	(pad "1" smd rect
+		(at -1.825 0)
+		(size 1.85 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1f124099-1d0c-4caa-a6b8-3ae791626be6")
+	)
+	(pad "2" smd rect
+		(at 1.825 0)
+		(size 1.85 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "cb30e05c-a2ec-4f47-bdda-dc39315b9e4e")
+	)
+	(embedded_fonts no)
+	(model "E:/OneDrive/Dokumente/KiCad-Private-Library/KiCad_Private_Libraries/KiCad_Private_Step/SRN5040.step"
+		(offset
+			(xyz 0 0 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -0)
+		)
+	)
 )
